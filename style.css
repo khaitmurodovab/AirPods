@@ -1,0 +1,246 @@
+@import url(./fonts.css);
+body{
+    background-color: #151515;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "MontserratSemiBold";
+    display: block;
+}
+.header{
+    width: 100%;
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.header-menu__second-part{
+    display: flex;
+    column-gap: 30px;
+}
+.header-item{
+    cursor: pointer;
+}
+.main-title{
+    background-image: url("./Header.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture-title{
+    color: #FFF;
+    font-family: "ProstoOneRegular";
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    padding-bottom: 38px;
+}
+.picture-link{
+    width: 180px;
+    color: #171718;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-color: #FFF;
+    font-family: "MontserratRegular";
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.picture-text-link{
+    display: flex;
+}
+.vector{
+    padding-left: 11px;
+}
+.main-part__second{
+    background: #151515;
+}
+.main-part__second-content{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.main-part__second-image{
+    width: 452px;
+    height: 235px;
+    padding-left: 40px;
+}
+.main-part__second-paragraph{
+    display: block;
+    width: 538px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-family: "MontserratRegular";
+}
+.paragraph{
+    width: 538px;
+    color: #FFF;
+    font-family: "MontserratRegular";
+}
+.main-second-part{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+.main__third-part{
+    display: flex;
+}
+main{
+    background-color: #151515;
+}
+.main__third-part{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.in__main__third-part{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.in__main__third-part-text{
+    width: 200px;
+    color: #FFF;
+    font-family: "MontserratRegular";
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+.in__main__third-part-img{
+    width: 218px;
+    height: 325px;
+}
+.line{
+    width: 61px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.advertisment{
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+}
+.phones-menu{
+    display: flex;
+    column-gap: 30px;
+}
+.number-of-phones{
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phone-title{
+    color: #000;
+    font-weight: 700;
+    font-family: "MontserratRegular";
+    text-align: center;
+    padding-bottom: 10px;
+}
+.phone-img{
+    margin: auto;
+    text-align: center;
+}
+.phone-description{
+    color: #000;
+    font-weight: 400;
+    font-family: "MontserratRegular";
+    text-align: center;
+    padding-top: 10px;
+}
+
+.phone-link{
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link{
+    padding-top: 15px;
+}
+footer{
+    margin-top: 55px;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828
+}
+
+
+.footer-nav{
+    display: flex;
+    column-gap: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.footer-item:nth-child(2){
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+
+
+
+
+.site-designer{
+    background-color: #565656;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-text{
+    font-size: 18px;
+    font-family: "MontserratRegular";
+    font-weight: 500;
+    color: #FFF;
+}
+
